@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.log
+.DS_Store
+coverage/
+.vercel/
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+*.tfplan
+*.tfplan.json
