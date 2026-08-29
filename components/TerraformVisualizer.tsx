@@ -1,7 +1,7 @@
  "use client";
 
 import { useMemo, useState } from "react";
-import { parseTerraform, TerraformResource } from "@/lib/terraform-parser";
+import { parseTerraform, TerraformResource } from "../lib/terraform-parser";
 
 const SAMPLE = `terraform {
   required_providers {
